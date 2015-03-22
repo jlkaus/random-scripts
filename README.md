@@ -5,10 +5,10 @@ In particular, they do not include:
 
 Directories in here:
 
-books/   my book data processing scripts and old data
-angular/  scripts to work with svg and html angular rulers
-finance/  scripts to work with my csv files from banks, mint, etc and do analysis
-youtube/  scripts to interact with youtube playlists and videos
-mpr-playlists/  scripts to re-format mpr classical playlist data
-slackware-changelog/ scripts to re-format the slackware changelogs
-fitbit/  scripts to deal with fitbit data
+ * books/   my book data processing scripts and old data
+ * angular/  scripts to work with svg and html angular rulers
+ * finance/  scripts to work with my csv files from banks, mint, etc and do analysis
+ * youtube/  scripts to interact with youtube playlists and videos
+ * mpr-playlists/  scripts to re-format mpr classical playlist data
+ * slackware-changelog/ scripts to re-format the slackware changelogs
+ * fitbit/  scripts to deal with fitbit data

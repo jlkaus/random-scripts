@@ -1,35 +1,14 @@
-# random-scripts
-This is a test file in my repository, edited from my tablet.
-The keyboard is very small, and thus my net typing speed has vastly decreased, given that I have to keep going back to correct mistakes.
-This is troubling, but not so horrible as I might have imagined.
+Random scripts that I use on my laptop and in the cloud.  All of these are pretty-much one-offs.
+In particular, they do not include:
+ - my music ripping and music management script system (see musikding)
+ - my book logging app/webpage stuff (see booklog)
 
-Now, some test perl code:
-#!/usr/bin/perl
+Directories in here:
 
-use strict;
-use warnings;
-
-if($hashref->{thinger} eq $otherref->[0]->{$ENV{HOME}}) {
-  why();
-  substr($_,5,6) = "test";
-  }
-  
-  exit(0);
-  
-Now some test C code:
-int main(int argc, char *argv[]) {
-  if(test()) {
-    goback();
-    Why::stupid();
-    int x = 5;
-    Why now=new Why(BrownCow::BrownCow());
-    if (now.test() == x) {
-      Why::unstupid();
-    }
-  } else {
-    printf("This is a test %d  %.10s\n", x,now.toString());
-  }
-  
-  return 0;
-}
-
+books/   my book data processing scripts and old data
+angular/  scripts to work with svg and html angular rulers
+finance/  scripts to work with my csv files from banks, mint, etc and do analysis
+youtube/  scripts to interact with youtube playlists and videos
+mpr-playlists/  scripts to re-format mpr classical playlist data
+slackware-changelog/ scripts to re-format the slackware changelogs
+fitbit/  scripts to deal with fitbit data

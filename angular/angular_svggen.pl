@@ -6,7 +6,7 @@ use POSIX "fmod";
 
 # parameters
 #  diameter of the disc (in decimal inches)
-#  page width (in decimal inches of usable space)
+#  page height (in decimal inches of usable space)
 #  fwd degree center (in decimal degrees)
 #  markings list:
 #    modulus-height     --- non-numbers, just marks
@@ -17,7 +17,7 @@ use POSIX "fmod";
 our $PI = 3.141592653589793;
 
 my $disc_diameter = shift || die "ERROR: Need a disc diameter\n";
-my $page_width = shift || die "ERROR: Need a page width\n";
+my $page_height = shift || die "ERROR: Need a page height\n";
 my $degree_center = shift // die "ERROR: Need a degree center\n";
 my $outfiles = shift || die "ERROR: Need to specify an output file base\n";
 my @markings = @ARGV;
@@ -65,12 +65,12 @@ my $degree_width = $PI * $disc_diameter/ 360.0;
 my $smallest_width = $smallest_degs * $degree_width;
 
 # now figure out how many marks can fit on the page.
-my $num_marks = int($page_width / $smallest_width);
+my $num_marks = int($page_height / $smallest_width);
 my $start_fwd_mark = $degree_center - int($num_marks / 2) * $smallest_degs;
 my $final_fwd_mark = $start_fwd_mark + $num_marks * $smallest_degs;
 
 # figure out how wide the first "inch" should be
-my $first_inch_width = fmod($page_width, 1.0);
+my $first_inch_width = fmod($page_height, 1.0);
 
 
 ################
@@ -107,11 +107,11 @@ open SVGO, ">",$svg_out or die "ERROR: Can't open $svg_out for writing\n";
 print SVGO "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
 print SVGO "<?xml-stylesheet href='$css_out' type='text/css' ?>\n";
 print SVGO "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.0//EN\" \"http://www.w3.org/TR/REC-SVG-20010904/DTD/svg10.dtd\">\n";
-print SVGO "<svg width=\"${page_width}in\" height=\"8in\">\n";
+print SVGO "<svg height=\"${page_height}in\" width=\"8in\">\n";
 
 print SVGO "    <title>Angular Ruler ($degree_center)</title>\n\n";
 print SVGO "    <!-- Disc-diameter: $disc_diameter -->\n";
-print SVGO "    <!-- Page-width: $page_width -->\n";
+print SVGO "    <!-- Page-height: $page_height -->\n";
 print SVGO "    <!-- Fwd-degree-center: $degree_center -->\n";
 print SVGO "    <!-- Degree-width: $degree_width -->\n";
 print SVGO "    <!-- Mark-space-degrees: $smallest_degs -->\n";
@@ -131,7 +131,7 @@ for(my $current_mark = $start_fwd_mark; $current_mark < $final_fwd_mark; $curren
     if($rules->{use_numbers}) {
 	print SVGO "<!-- Align: $current_mark -->";
 #	print SVGO "<g class='align_mark'></g>";
-	print SVGO "<line x1='${xloc}in' y1='0in' x2='${xloc}in' y2='2in' stroke='black' strokeWidth='1px' />\n";
+	print SVGO "<line y1='${xloc}in' x1='0in' y2='${xloc}in' x2='6in' stroke='black' strokeWidth='1px' />\n";
     } else {
 #	print SVGO "<g class='align_space'></g>";
     }
@@ -143,12 +143,12 @@ print SVGO "<g id='stretcher_container'>";
 
 #print SVGO "<g class='first_inch_block'></g>";
 
-for(my $cur_inch=0; $cur_inch < int($page_width); ++$cur_inch) {
+for(my $cur_inch=0; $cur_inch < int($page_height); ++$cur_inch) {
 #    print SVGO "<g class='later_inch_block'></g>";
     if($cur_inch % 2 == 0) {
-	print SVGO "<rect x='${cur_inch}in' y='2in' width='1in' height='4in' fill='#bbb' stroke='none' strokeWidth='0px' />\n";
+#	print SVGO "<rect y='${cur_inch}in' x='2in' height='1in' width='4in' fill='#bbb' stroke='none' strokeWidth='0px' />\n";
     } else {
-	print SVGO "<rect x='${cur_inch}in' y='2in' width='1in' height='4in' fill='#888' stroke='none' strokeWidth='0px' />\n";
+#	print SVGO "<rect y='${cur_inch}in' x='2in' height='1in' width='4in' fill='#888' stroke='none' strokeWidth='0px' />\n";
     }
 }
 
@@ -178,17 +178,17 @@ for(my $current_mark = $start_fwd_mark; $current_mark < $final_fwd_mark; $curren
     # 	print SVGO "</g>";
 
 
-	print SVGO "<text x='${xloc}in' y='7.59in' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif' >";
+	print SVGO "<text y='-7.50in' x='${xloc}in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >";
 	print SVGO sprintf("%.0f",findFwd($current_mark));
 	print SVGO "</text>\n";
-	print SVGO "<text x='${xloc}in' y='7.68in' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif' >";
+	print SVGO "<text y='-7.59in' x='${xloc}in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >";
 	print SVGO sprintf("%.0f",findRev($current_mark));
 	print SVGO "</text>\n";
     }
 
     # print SVGO     "</g>";
 #    print SVGO     "<g class='mark'></g>";
-    print SVGO "<line x1='${xloc}in' y1='8in' x2='${xloc}in' y2='${top_spot}in' stroke='black' strokeWidth='1px' />\n";
+    print SVGO "<line y1='${xloc}in' x1='8in' y2='${xloc}in' x2='${top_spot}in' stroke='black' strokeWidth='1px' />\n";
     print SVGO     "</g>";
 }
 print SVGO     "</g>\n";

@@ -73,6 +73,21 @@ my $final_fwd_mark = $start_fwd_mark + $num_marks * $smallest_degs;
 my $first_inch_width = fmod($page_height, 1.0);
 
 
+
+# ok, since this is the vernier case, we really need to come
+# up with the smallest_vernier_width, which is smaller than
+# the smallest_width by a little bit.
+# In the space occupied by 10 marks, we need 11 marks.
+# That means:
+my $vernier_resolution = 0.05;
+my $smallest_vernier_width = (1.0 - ($vernier_resolution / $smallest_degs)) *  $smallest_width;
+
+# We'll assume smallest_deg is 0.5
+# the half-marks will be quarter-height and unnumbered
+# the full-marks will be half-height and numbered (except first and last mark)
+# the first and last mark will be full-height and unnumbered
+# also mark out the reverse direction things
+
 ################
 # open CSSO, ">",$css_out or die "ERROR: Can't open $css_out for writing\n";
 
@@ -82,16 +97,16 @@ my $first_inch_width = fmod($page_height, 1.0);
 
 # EOM
 
-foreach(sort {$a <=> $b} keys %real_marks) {
-    my $mo = $_;
-    my $mc = $real_marks{$mo}->{mark_class};
-    my $ht = $real_marks{$mo}->{height};
-    my $fht = $rht - $ht;
-#    print CSSO << "EOM";
+# foreach(sort {$a <=> $b} keys %real_marks) {
+#     my $mo = $_;
+#     my $mc = $real_marks{$mo}->{mark_class};
+#     my $ht = $real_marks{$mo}->{height};
+#     my $fht = $rht - $ht;
+#     print CSSO << "EOM";
 
 # EOM
 
-}
+# }
 
 
 
@@ -109,7 +124,7 @@ print SVGO "<?xml-stylesheet href='$css_out' type='text/css' ?>\n";
 print SVGO "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.0//EN\" \"http://www.w3.org/TR/REC-SVG-20010904/DTD/svg10.dtd\">\n";
 print SVGO "<svg height=\"${page_height}in\" width=\"8in\">\n";
 
-print SVGO "    <title>Angular Ruler ($degree_center)</title>\n\n";
+print SVGO "    <title>Angular Vernier Ruler ($degree_center)</title>\n\n";
 print SVGO "    <!-- Disc-diameter: $disc_diameter -->\n";
 print SVGO "    <!-- Page-height: $page_height -->\n";
 print SVGO "    <!-- Fwd-degree-center: $degree_center -->\n";
@@ -117,79 +132,57 @@ print SVGO "    <!-- Degree-width: $degree_width -->\n";
 print SVGO "    <!-- Mark-space-degrees: $smallest_degs -->\n";
 print SVGO "    <!-- Mark-space-inches: $smallest_width -->\n";
 print SVGO "    <!-- Fwd-degree-start: $start_fwd_mark -->\n";
-print SVGO "    <!-- Fwd-degree-end: $final_fwd_mark -->\n\n";
+print SVGO "    <!-- Fwd-degree-end: $final_fwd_mark -->\n";
+print SVGO "    <!-- Vernier-resolution: $vernier_resolution -->\n";
+print SVGO "    <!-- Vernier-space-inches: $smallest_vernier_width -->\n";
+
 
 print SVGO "<g id='page_container'>";
-print SVGO "<g id='alignment_container'>";
+print SVGO         "<g id='vernier_container'>";
 
-for(my $current_mark = $start_fwd_mark; $current_mark < $final_fwd_mark; $current_mark += $smallest_degs) {
-    my $rules = findRules($current_mark);
+my $num_v_marks = 2 + sprintf("%.0f",($smallest_degs/$vernier_resolution));
+for(my $current_mark = 0; $current_mark < $num_v_marks; ++$current_mark) {
+    my $mark_height = 0.125;
+    my $mark_use_numbers;
+    $mark_height = 0.25 if ($current_mark % 2 == 0);
+    $mark_use_numbers = 1 if ($current_mark % 2 == 0);
+    $mark_height = 0.5 if ($current_mark == 0);
+    $mark_use_numbers = undef if ($current_mark == 0);
+    $mark_height = 0.5 if ($current_mark == $num_v_marks - 1);
+    
+    # lets mark from 0 to height
+    # then, put the text at height + a bit (if we need text)
+    # in each case except 0, mark at center + i * width and center - i * width
+    # for 0, just the one mark
 
-    my $xloc = ($current_mark - $start_fwd_mark + $smallest_degs) * $degree_width;
+    my $offset = $current_mark * $smallest_vernier_width;
+    my $spot_left = 4.0 -$offset;
+    my $spot_right = 4.0 + $offset;
+    my $text_spot = 8.0 - $mark_height - 0.01;
+    my $disp_num = int($current_mark/2);
+    my $mark_end = 8.0 - $mark_height;
 
-    print SVGO     "<g class='align_holder'>";
-    if($rules->{use_numbers}) {
-	print SVGO "<!-- Align: $current_mark -->";
-#	print SVGO "<g class='align_mark'></g>";
-	print SVGO "<line y1='${xloc}in' x1='0in' y2='${xloc}in' x2='6in' stroke='black' strokeWidth='1px' />\n";
-    } else {
-#	print SVGO "<g class='align_space'></g>";
-    }
-    print SVGO     "</g>";
-}
-
-print SVGO         "</g>";
-print SVGO "<g id='stretcher_container'>";
-
-#print SVGO "<g class='first_inch_block'></g>";
-
-for(my $cur_inch=0; $cur_inch < int($page_height); ++$cur_inch) {
-#    print SVGO "<g class='later_inch_block'></g>";
-    if($cur_inch % 2 == 0) {
-#	print SVGO "<rect y='${cur_inch}in' x='2in' height='1in' width='4in' fill='#bbb' stroke='none' strokeWidth='0px' />\n";
-    } else {
-#	print SVGO "<rect y='${cur_inch}in' x='2in' height='1in' width='4in' fill='#888' stroke='none' strokeWidth='0px' />\n";
-    }
-}
-
-print SVGO "</g>";
-print SVGO         "<g id='ruler_container'>";
-
-
-for(my $current_mark = $start_fwd_mark; $current_mark < $final_fwd_mark; $current_mark += $smallest_degs) {
-    my $rules = findRules($current_mark);
-
-    my $top_spot = 8.0 - $rules->{height};
-    my $xloc = ($current_mark - $start_fwd_mark + $smallest_degs) * $degree_width;
-
-    print SVGO     "<g class='mark_holder_$rules->{mark_class}'>";
-    print SVGO     "<!-- $current_mark -->";
-    # print SVGO     "<g class='filler'>";
-    if($rules->{use_numbers}) {
-    # 	print SVGO "<g class='fwd_label'>";
-    # 	print SVGO "<span>";
-    # 	print SVGO sprintf("%.0f",findFwd($current_mark));
-    # 	print SVGO "</span>";
-    # 	print SVGO "</g>";
-    # 	print SVGO "<g class='rev_label'>";
-    # 	print SVGO "<span>";
-    # 	print SVGO sprintf("%.0f",findRev($current_mark));
-    # 	print SVGO "</span>";
-    # 	print SVGO "</g>";
-
-
-	print SVGO "<text y='-7.50in' x='${xloc}in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >";
-	print SVGO sprintf("%.0f",findFwd($current_mark));
-	print SVGO "</text>\n";
-	print SVGO "<text y='-7.59in' x='${xloc}in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >";
-	print SVGO sprintf("%.0f",findRev($current_mark));
+    print SVGO "<g class='vernier_mark_holder'>";
+    print SVGO "<!-- $current_mark -->";
+    print SVGO "<line y1='8in' x1='${spot_right}in' y2='${mark_end}in' x2='${spot_right}in' stroke='black' strokeWidth='1px' />\n";
+    if($mark_use_numbers) {
+	print SVGO "<text y='${text_spot}in' x='${spot_right}in' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >";
+	print SVGO $disp_num;
 	print SVGO "</text>\n";
     }
+    print SVGO "</g>";
 
-    # print SVGO     "</g>";
-#    print SVGO     "<g class='mark'></g>";
-    print SVGO "<line y1='${xloc}in' x1='8in' y2='${xloc}in' x2='${top_spot}in' stroke='black' strokeWidth='1px' />\n";
-    print SVGO     "</g>";
+    if($current_mark != 0) {
+	print SVGO "<g class='vernier_mark_holder'>";
+	print SVGO "<!-- $current_mark -->";
+	print SVGO "<line y1='8in' x1='${spot_left}in' y2='${mark_end}in' x2='${spot_left}in' stroke='black' strokeWidth='1px' />\n";
+	if($mark_use_numbers) {
+	    print SVGO "<text y='${text_spot}in' x='${spot_left}in' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >";
+	    print SVGO $disp_num;
+	    print SVGO "</text>\n";
+	}
+	print SVGO "</g>";
+    }
 }
 print SVGO     "</g>\n";
 print SVGO     "</g>\n";

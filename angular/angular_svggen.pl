@@ -105,9 +105,9 @@ open SVGO, ">",$svg_out or die "ERROR: Can't open $svg_out for writing\n";
 
 
 print SVGO "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
-print SVGO "<?xml-stylesheet href='$css_out' type='text/css' ?>\n";
-print SVGO "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.0//EN\" \"http://www.w3.org/TR/REC-SVG-20010904/DTD/svg10.dtd\">\n";
-print SVGO "<svg height=\"${page_height}in\" width=\"8in\">\n";
+#print SVGO "<?xml-stylesheet href='$css_out' type='text/css' ?>\n";
+print SVGO "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.0//EN\" \"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd\">\n";
+print SVGO "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"${page_height}in\" width=\"8in\">\n";
 
 print SVGO "    <title>Angular Ruler ($degree_center)</title>\n\n";
 print SVGO "    <!-- Disc-diameter: $disc_diameter -->\n";
@@ -131,7 +131,7 @@ for(my $current_mark = $start_fwd_mark; $current_mark < $final_fwd_mark; $curren
     if($rules->{use_numbers}) {
 	print SVGO "<!-- Align: $current_mark -->";
 #	print SVGO "<g class='align_mark'></g>";
-	print SVGO "<line y1='${xloc}in' x1='0in' y2='${xloc}in' x2='6in' stroke='black' strokeWidth='1px' />\n";
+	print SVGO "<line y1='${xloc}in' x1='0in' y2='${xloc}in' x2='6in' stroke='black' stroke-width='1px' />\n";
     } else {
 #	print SVGO "<g class='align_space'></g>";
     }
@@ -146,9 +146,9 @@ print SVGO "<g id='stretcher_container'>";
 for(my $cur_inch=0; $cur_inch < int($page_height); ++$cur_inch) {
 #    print SVGO "<g class='later_inch_block'></g>";
     if($cur_inch % 2 == 0) {
-#	print SVGO "<rect y='${cur_inch}in' x='2in' height='1in' width='4in' fill='#bbb' stroke='none' strokeWidth='0px' />\n";
+#	print SVGO "<rect y='${cur_inch}in' x='2in' height='1in' width='4in' fill='#bbb' stroke='none' stroke-width='0px' />\n";
     } else {
-#	print SVGO "<rect y='${cur_inch}in' x='2in' height='1in' width='4in' fill='#888' stroke='none' strokeWidth='0px' />\n";
+#	print SVGO "<rect y='${cur_inch}in' x='2in' height='1in' width='4in' fill='#888' stroke='none' stroke-width='0px' />\n";
     }
 }
 
@@ -188,7 +188,7 @@ for(my $current_mark = $start_fwd_mark; $current_mark < $final_fwd_mark; $curren
 
     # print SVGO     "</g>";
 #    print SVGO     "<g class='mark'></g>";
-    print SVGO "<line y1='${xloc}in' x1='8in' y2='${xloc}in' x2='${top_spot}in' stroke='black' strokeWidth='1px' />\n";
+    print SVGO "<line y1='${xloc}in' x1='8in' y2='${xloc}in' x2='${top_spot}in' stroke='black' stroke-width='1px' />\n";
     print SVGO     "</g>";
 }
 print SVGO     "</g>\n";

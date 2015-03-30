@@ -120,9 +120,9 @@ open SVGO, ">",$svg_out or die "ERROR: Can't open $svg_out for writing\n";
 
 
 print SVGO "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
-print SVGO "<?xml-stylesheet href='$css_out' type='text/css' ?>\n";
-print SVGO "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.0//EN\" \"http://www.w3.org/TR/REC-SVG-20010904/DTD/svg10.dtd\">\n";
-print SVGO "<svg height=\"${page_height}in\" width=\"8in\">\n";
+#print SVGO "<?xml-stylesheet href='$css_out' type='text/css' ?>\n";
+print SVGO "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.0//EN\" \"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd\">\n";
+print SVGO "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"${page_height}in\" width=\"8in\">\n";
 
 print SVGO "    <title>Angular Vernier Ruler ($degree_center)</title>\n\n";
 print SVGO "    <!-- Disc-diameter: $disc_diameter -->\n";
@@ -164,7 +164,7 @@ for(my $current_mark = 0; $current_mark < $num_v_marks; ++$current_mark) {
 
     print SVGO "<g class='vernier_mark_holder'>";
     print SVGO "<!-- $current_mark -->";
-    print SVGO "<line y1='8in' x1='${spot_right}in' y2='${mark_end}in' x2='${spot_right}in' stroke='black' strokeWidth='1px' />\n";
+    print SVGO "<line y1='8in' x1='${spot_right}in' y2='${mark_end}in' x2='${spot_right}in' stroke='black' stroke-width='1px' />\n";
     if($mark_use_numbers) {
 	print SVGO "<text y='${text_spot}in' x='${spot_right}in' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >";
 	print SVGO $disp_num;
@@ -175,7 +175,7 @@ for(my $current_mark = 0; $current_mark < $num_v_marks; ++$current_mark) {
     if($current_mark != 0) {
 	print SVGO "<g class='vernier_mark_holder'>";
 	print SVGO "<!-- $current_mark -->";
-	print SVGO "<line y1='8in' x1='${spot_left}in' y2='${mark_end}in' x2='${spot_left}in' stroke='black' strokeWidth='1px' />\n";
+	print SVGO "<line y1='8in' x1='${spot_left}in' y2='${mark_end}in' x2='${spot_left}in' stroke='black' stroke-width='1px' />\n";
 	if($mark_use_numbers) {
 	    print SVGO "<text y='${text_spot}in' x='${spot_left}in' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >";
 	    print SVGO $disp_num;

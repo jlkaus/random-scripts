@@ -77,16 +77,15 @@ my $first_inch_width = fmod($page_height, 1.0);
 # ok, since this is the vernier case, we really need to come
 # up with the smallest_vernier_width, which is smaller than
 # the smallest_width by a little bit.
-# In the space occupied by 10 marks, we need 11 marks.
+# In the space occupied by 9 marks, we need 10 marks.
 # That means:
-my $vernier_resolution = 0.05;
-my $smallest_vernier_width = (1.0 - ($vernier_resolution / $smallest_degs)) *  $smallest_width;
+my $vernier_mark_count = 10;
+my $smallest_vernier_width = $smallest_width * ($vernier_mark_count - 1.0)/$vernier_mark_count;
 
-# We'll assume smallest_deg is 0.5
-# the half-marks will be quarter-height and unnumbered
-# the full-marks will be half-height and numbered (except first and last mark)
-# the first and last mark will be full-height and unnumbered
-# also mark out the reverse direction things
+# the 0th and Nth vernier mark should be full height, with no numbers
+# the odd marks (i%2 == 1) should be quarter height without numbers
+# the other even marks (i%2 == 0, but i!=0 and i!=N) should be half height with numbers i/2
+# the reverse marks are the same as their forward counterparts
 
 ################
 # open CSSO, ">",$css_out or die "ERROR: Can't open $css_out for writing\n";
@@ -133,22 +132,22 @@ print SVGO "    <!-- Mark-space-degrees: $smallest_degs -->\n";
 print SVGO "    <!-- Mark-space-inches: $smallest_width -->\n";
 print SVGO "    <!-- Fwd-degree-start: $start_fwd_mark -->\n";
 print SVGO "    <!-- Fwd-degree-end: $final_fwd_mark -->\n";
-print SVGO "    <!-- Vernier-resolution: $vernier_resolution -->\n";
+print SVGO "    <!-- Vernier-mark-count: $vernier_mark_count -->\n";
 print SVGO "    <!-- Vernier-space-inches: $smallest_vernier_width -->\n";
 
 
 print SVGO "<g id='page_container'>";
 print SVGO         "<g id='vernier_container'>";
 
-my $num_v_marks = 2 + sprintf("%.0f",($smallest_degs/$vernier_resolution));
-for(my $current_mark = 0; $current_mark < $num_v_marks; ++$current_mark) {
+for(my $current_mark = 0; $current_mark <= $vernier_mark_count; ++$current_mark) {
     my $mark_height = 0.125;
     my $mark_use_numbers;
     $mark_height = 0.25 if ($current_mark % 2 == 0);
     $mark_use_numbers = 1 if ($current_mark % 2 == 0);
     $mark_height = 0.5 if ($current_mark == 0);
     $mark_use_numbers = undef if ($current_mark == 0);
-    $mark_height = 0.5 if ($current_mark == $num_v_marks - 1);
+    $mark_height = 0.5 if ($current_mark == $vernier_mark_count);
+    $mark_use_numbers = undef if ($current_mark == $vernier_mark_count);
     
     # lets mark from 0 to height
     # then, put the text at height + a bit (if we need text)

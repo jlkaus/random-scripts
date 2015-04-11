@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" height="10in" width="8in">
+    <title>Angular Vernier Ruler (0)</title>
+
+    <!-- Disc-diameter: 8.25 -->
+    <!-- Page-height: 10 -->
+    <!-- Fwd-degree-center: 0 -->
+    <!-- Degree-width: 0.0719948316447661 -->
+    <!-- Mark-space-degrees: 0.5 -->
+    <!-- Mark-space-inches: 0.035997415822383 -->
+    <!-- Fwd-degree-start: -69 -->
+    <!-- Fwd-degree-end: 69.5 -->
+    <!-- Vernier-mark-count: 10 -->
+    <!-- Vernier-space-inches: 0.0323976742401447 -->
+<g id='page_container'><g id='vernier_container'><g class='vernier_mark_holder'><!-- 0 --><line y1='8in' x1='4in' y2='7.5in' x2='4in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 1 --><line y1='8in' x1='4.03239767424015in' y2='7.875in' x2='4.03239767424015in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 1 --><line y1='8in' x1='3.96760232575986in' y2='7.875in' x2='3.96760232575986in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 2 --><line y1='8in' x1='4.06479534848029in' y2='7.75in' x2='4.06479534848029in' stroke='black' stroke-width='1px' />
+<text y='7.74in' x='4.06479534848029in' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >1</text>
+</g><g class='vernier_mark_holder'><!-- 2 --><line y1='8in' x1='3.93520465151971in' y2='7.75in' x2='3.93520465151971in' stroke='black' stroke-width='1px' />
+<text y='7.74in' x='3.93520465151971in' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >1</text>
+</g><g class='vernier_mark_holder'><!-- 3 --><line y1='8in' x1='4.09719302272043in' y2='7.875in' x2='4.09719302272043in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 3 --><line y1='8in' x1='3.90280697727957in' y2='7.875in' x2='3.90280697727957in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 4 --><line y1='8in' x1='4.12959069696058in' y2='7.75in' x2='4.12959069696058in' stroke='black' stroke-width='1px' />
+<text y='7.74in' x='4.12959069696058in' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >2</text>
+</g><g class='vernier_mark_holder'><!-- 4 --><line y1='8in' x1='3.87040930303942in' y2='7.75in' x2='3.87040930303942in' stroke='black' stroke-width='1px' />
+<text y='7.74in' x='3.87040930303942in' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >2</text>
+</g><g class='vernier_mark_holder'><!-- 5 --><line y1='8in' x1='4.16198837120072in' y2='7.875in' x2='4.16198837120072in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 5 --><line y1='8in' x1='3.83801162879928in' y2='7.875in' x2='3.83801162879928in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 6 --><line y1='8in' x1='4.19438604544087in' y2='7.75in' x2='4.19438604544087in' stroke='black' stroke-width='1px' />
+<text y='7.74in' x='4.19438604544087in' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >3</text>
+</g><g class='vernier_mark_holder'><!-- 6 --><line y1='8in' x1='3.80561395455913in' y2='7.75in' x2='3.80561395455913in' stroke='black' stroke-width='1px' />
+<text y='7.74in' x='3.80561395455913in' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >3</text>
+</g><g class='vernier_mark_holder'><!-- 7 --><line y1='8in' x1='4.22678371968101in' y2='7.875in' x2='4.22678371968101in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 7 --><line y1='8in' x1='3.77321628031899in' y2='7.875in' x2='3.77321628031899in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 8 --><line y1='8in' x1='4.25918139392116in' y2='7.75in' x2='4.25918139392116in' stroke='black' stroke-width='1px' />
+<text y='7.74in' x='4.25918139392116in' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >4</text>
+</g><g class='vernier_mark_holder'><!-- 8 --><line y1='8in' x1='3.74081860607884in' y2='7.75in' x2='3.74081860607884in' stroke='black' stroke-width='1px' />
+<text y='7.74in' x='3.74081860607884in' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >4</text>
+</g><g class='vernier_mark_holder'><!-- 9 --><line y1='8in' x1='4.2915790681613in' y2='7.875in' x2='4.2915790681613in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 9 --><line y1='8in' x1='3.7084209318387in' y2='7.875in' x2='3.7084209318387in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 10 --><line y1='8in' x1='4.32397674240145in' y2='7.5in' x2='4.32397674240145in' stroke='black' stroke-width='1px' />
+</g><g class='vernier_mark_holder'><!-- 10 --><line y1='8in' x1='3.67602325759855in' y2='7.5in' x2='3.67602325759855in' stroke='black' stroke-width='1px' />
+</g></g>
+</g>
+</svg>

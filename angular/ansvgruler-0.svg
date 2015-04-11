@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" height="10in" width="8in">
+    <title>Angular Ruler (0)</title>
+
+    <!-- Disc-diameter: 8.25 -->
+    <!-- Page-height: 10 -->
+    <!-- Fwd-degree-center: 0 -->
+    <!-- Degree-width: 0.0719948316447661 -->
+    <!-- Mark-space-degrees: 0.5 -->
+    <!-- Mark-space-inches: 0.035997415822383 -->
+    <!-- Fwd-degree-start: -69 -->
+    <!-- Fwd-degree-end: 69.5 -->
+
+<g id='page_container'><g id='alignment_container'><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -65 --><line y1='0.323976742401447in' x1='0in' y2='0.323976742401447in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -60 --><line y1='0.683950900625278in' x1='0in' y2='0.683950900625278in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -55 --><line y1='1.04392505884911in' x1='0in' y2='1.04392505884911in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -50 --><line y1='1.40389921707294in' x1='0in' y2='1.40389921707294in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -40 --><line y1='2.1238475335206in' x1='0in' y2='2.1238475335206in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -35 --><line y1='2.48382169174443in' x1='0in' y2='2.48382169174443in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -30 --><line y1='2.84379584996826in' x1='0in' y2='2.84379584996826in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -25 --><line y1='3.20377000819209in' x1='0in' y2='3.20377000819209in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -20 --><line y1='3.56374416641592in' x1='0in' y2='3.56374416641592in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -15 --><line y1='3.92371832463975in' x1='0in' y2='3.92371832463975in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -10 --><line y1='4.28369248286358in' x1='0in' y2='4.28369248286358in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: -5 --><line y1='4.64366664108741in' x1='0in' y2='4.64366664108741in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 5 --><line y1='5.36361495753507in' x1='0in' y2='5.36361495753507in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 10 --><line y1='5.7235891157589in' x1='0in' y2='5.7235891157589in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 15 --><line y1='6.08356327398273in' x1='0in' y2='6.08356327398273in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 20 --><line y1='6.44353743220657in' x1='0in' y2='6.44353743220657in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 25 --><line y1='6.8035115904304in' x1='0in' y2='6.8035115904304in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 30 --><line y1='7.16348574865423in' x1='0in' y2='7.16348574865423in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 35 --><line y1='7.52345990687806in' x1='0in' y2='7.52345990687806in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 40 --><line y1='7.88343406510189in' x1='0in' y2='7.88343406510189in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 50 --><line y1='8.60338238154955in' x1='0in' y2='8.60338238154955in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 55 --><line y1='8.96335653977338in' x1='0in' y2='8.96335653977338in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 60 --><line y1='9.32333069799721in' x1='0in' y2='9.32333069799721in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'><!-- Align: 65 --><line y1='9.68330485622104in' x1='0in' y2='9.68330485622104in' x2='6in' stroke='black' stroke-width='1px' />
+</g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g><g class='align_holder'></g></g><g id='stretcher_container'></g><g id='ruler_container'><g class='mark_holder_mo_010'><!-- -69 --><line y1='0.035997415822383in' x1='8in' y2='0.035997415822383in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -68.5 --><line y1='0.0719948316447661in' x1='8in' y2='0.0719948316447661in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -68 --><line y1='0.107992247467149in' x1='8in' y2='0.107992247467149in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -67.5 --><line y1='0.143989663289532in' x1='8in' y2='0.143989663289532in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -67 --><line y1='0.179987079111915in' x1='8in' y2='0.179987079111915in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -66.5 --><line y1='0.215984494934298in' x1='8in' y2='0.215984494934298in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -66 --><line y1='0.251981910756681in' x1='8in' y2='0.251981910756681in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -65.5 --><line y1='0.287979326579064in' x1='8in' y2='0.287979326579064in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- -65 --><text y='-7.50in' x='0.323976742401447in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >295</text>
+<text y='-7.59in' x='0.323976742401447in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >65</text>
+<line y1='0.323976742401447in' x1='8in' y2='0.323976742401447in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -64.5 --><line y1='0.35997415822383in' x1='8in' y2='0.35997415822383in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -64 --><line y1='0.395971574046214in' x1='8in' y2='0.395971574046214in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -63.5 --><line y1='0.431968989868597in' x1='8in' y2='0.431968989868597in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -63 --><line y1='0.46796640569098in' x1='8in' y2='0.46796640569098in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -62.5 --><line y1='0.503963821513363in' x1='8in' y2='0.503963821513363in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -62 --><line y1='0.539961237335746in' x1='8in' y2='0.539961237335746in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -61.5 --><line y1='0.575958653158129in' x1='8in' y2='0.575958653158129in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -61 --><line y1='0.611956068980512in' x1='8in' y2='0.611956068980512in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -60.5 --><line y1='0.647953484802895in' x1='8in' y2='0.647953484802895in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_150'><!-- -60 --><text y='-7.50in' x='0.683950900625278in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >300</text>
+<text y='-7.59in' x='0.683950900625278in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >60</text>
+<line y1='0.683950900625278in' x1='8in' y2='0.683950900625278in' x2='7.7in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -59.5 --><line y1='0.719948316447661in' x1='8in' y2='0.719948316447661in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -59 --><line y1='0.755945732270044in' x1='8in' y2='0.755945732270044in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -58.5 --><line y1='0.791943148092427in' x1='8in' y2='0.791943148092427in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -58 --><line y1='0.82794056391481in' x1='8in' y2='0.82794056391481in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -57.5 --><line y1='0.863937979737193in' x1='8in' y2='0.863937979737193in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -57 --><line y1='0.899935395559576in' x1='8in' y2='0.899935395559576in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -56.5 --><line y1='0.935932811381959in' x1='8in' y2='0.935932811381959in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -56 --><line y1='0.971930227204342in' x1='8in' y2='0.971930227204342in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -55.5 --><line y1='1.00792764302673in' x1='8in' y2='1.00792764302673in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- -55 --><text y='-7.50in' x='1.04392505884911in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >305</text>
+<text y='-7.59in' x='1.04392505884911in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >55</text>
+<line y1='1.04392505884911in' x1='8in' y2='1.04392505884911in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -54.5 --><line y1='1.07992247467149in' x1='8in' y2='1.07992247467149in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -54 --><line y1='1.11591989049387in' x1='8in' y2='1.11591989049387in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -53.5 --><line y1='1.15191730631626in' x1='8in' y2='1.15191730631626in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -53 --><line y1='1.18791472213864in' x1='8in' y2='1.18791472213864in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -52.5 --><line y1='1.22391213796102in' x1='8in' y2='1.22391213796102in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -52 --><line y1='1.25990955378341in' x1='8in' y2='1.25990955378341in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -51.5 --><line y1='1.29590696960579in' x1='8in' y2='1.29590696960579in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -51 --><line y1='1.33190438542817in' x1='8in' y2='1.33190438542817in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -50.5 --><line y1='1.36790180125056in' x1='8in' y2='1.36790180125056in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- -50 --><text y='-7.50in' x='1.40389921707294in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >310</text>
+<text y='-7.59in' x='1.40389921707294in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >50</text>
+<line y1='1.40389921707294in' x1='8in' y2='1.40389921707294in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -49.5 --><line y1='1.43989663289532in' x1='8in' y2='1.43989663289532in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -49 --><line y1='1.47589404871771in' x1='8in' y2='1.47589404871771in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -48.5 --><line y1='1.51189146454009in' x1='8in' y2='1.51189146454009in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -48 --><line y1='1.54788888036247in' x1='8in' y2='1.54788888036247in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -47.5 --><line y1='1.58388629618485in' x1='8in' y2='1.58388629618485in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -47 --><line y1='1.61988371200724in' x1='8in' y2='1.61988371200724in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -46.5 --><line y1='1.65588112782962in' x1='8in' y2='1.65588112782962in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -46 --><line y1='1.691878543652in' x1='8in' y2='1.691878543652in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -45.5 --><line y1='1.72787595947439in' x1='8in' y2='1.72787595947439in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_450'><!-- -45 --><line y1='1.76387337529677in' x1='8in' y2='1.76387337529677in' x2='7.6in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -44.5 --><line y1='1.79987079111915in' x1='8in' y2='1.79987079111915in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -44 --><line y1='1.83586820694154in' x1='8in' y2='1.83586820694154in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -43.5 --><line y1='1.87186562276392in' x1='8in' y2='1.87186562276392in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -43 --><line y1='1.9078630385863in' x1='8in' y2='1.9078630385863in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -42.5 --><line y1='1.94386045440868in' x1='8in' y2='1.94386045440868in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -42 --><line y1='1.97985787023107in' x1='8in' y2='1.97985787023107in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -41.5 --><line y1='2.01585528605345in' x1='8in' y2='2.01585528605345in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -41 --><line y1='2.05185270187583in' x1='8in' y2='2.05185270187583in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -40.5 --><line y1='2.08785011769822in' x1='8in' y2='2.08785011769822in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- -40 --><text y='-7.50in' x='2.1238475335206in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >320</text>
+<text y='-7.59in' x='2.1238475335206in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >40</text>
+<line y1='2.1238475335206in' x1='8in' y2='2.1238475335206in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -39.5 --><line y1='2.15984494934298in' x1='8in' y2='2.15984494934298in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -39 --><line y1='2.19584236516537in' x1='8in' y2='2.19584236516537in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -38.5 --><line y1='2.23183978098775in' x1='8in' y2='2.23183978098775in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -38 --><line y1='2.26783719681013in' x1='8in' y2='2.26783719681013in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -37.5 --><line y1='2.30383461263252in' x1='8in' y2='2.30383461263252in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -37 --><line y1='2.3398320284549in' x1='8in' y2='2.3398320284549in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -36.5 --><line y1='2.37582944427728in' x1='8in' y2='2.37582944427728in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -36 --><line y1='2.41182686009966in' x1='8in' y2='2.41182686009966in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -35.5 --><line y1='2.44782427592205in' x1='8in' y2='2.44782427592205in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- -35 --><text y='-7.50in' x='2.48382169174443in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >325</text>
+<text y='-7.59in' x='2.48382169174443in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >35</text>
+<line y1='2.48382169174443in' x1='8in' y2='2.48382169174443in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -34.5 --><line y1='2.51981910756681in' x1='8in' y2='2.51981910756681in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -34 --><line y1='2.5558165233892in' x1='8in' y2='2.5558165233892in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -33.5 --><line y1='2.59181393921158in' x1='8in' y2='2.59181393921158in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -33 --><line y1='2.62781135503396in' x1='8in' y2='2.62781135503396in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -32.5 --><line y1='2.66380877085635in' x1='8in' y2='2.66380877085635in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -32 --><line y1='2.69980618667873in' x1='8in' y2='2.69980618667873in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -31.5 --><line y1='2.73580360250111in' x1='8in' y2='2.73580360250111in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -31 --><line y1='2.77180101832349in' x1='8in' y2='2.77180101832349in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -30.5 --><line y1='2.80779843414588in' x1='8in' y2='2.80779843414588in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_150'><!-- -30 --><text y='-7.50in' x='2.84379584996826in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >330</text>
+<text y='-7.59in' x='2.84379584996826in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >30</text>
+<line y1='2.84379584996826in' x1='8in' y2='2.84379584996826in' x2='7.7in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -29.5 --><line y1='2.87979326579064in' x1='8in' y2='2.87979326579064in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -29 --><line y1='2.91579068161303in' x1='8in' y2='2.91579068161303in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -28.5 --><line y1='2.95178809743541in' x1='8in' y2='2.95178809743541in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -28 --><line y1='2.98778551325779in' x1='8in' y2='2.98778551325779in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -27.5 --><line y1='3.02378292908018in' x1='8in' y2='3.02378292908018in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -27 --><line y1='3.05978034490256in' x1='8in' y2='3.05978034490256in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -26.5 --><line y1='3.09577776072494in' x1='8in' y2='3.09577776072494in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -26 --><line y1='3.13177517654733in' x1='8in' y2='3.13177517654733in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -25.5 --><line y1='3.16777259236971in' x1='8in' y2='3.16777259236971in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- -25 --><text y='-7.50in' x='3.20377000819209in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >335</text>
+<text y='-7.59in' x='3.20377000819209in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >25</text>
+<line y1='3.20377000819209in' x1='8in' y2='3.20377000819209in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -24.5 --><line y1='3.23976742401447in' x1='8in' y2='3.23976742401447in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -24 --><line y1='3.27576483983686in' x1='8in' y2='3.27576483983686in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -23.5 --><line y1='3.31176225565924in' x1='8in' y2='3.31176225565924in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -23 --><line y1='3.34775967148162in' x1='8in' y2='3.34775967148162in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -22.5 --><line y1='3.38375708730401in' x1='8in' y2='3.38375708730401in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -22 --><line y1='3.41975450312639in' x1='8in' y2='3.41975450312639in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -21.5 --><line y1='3.45575191894877in' x1='8in' y2='3.45575191894877in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -21 --><line y1='3.49174933477116in' x1='8in' y2='3.49174933477116in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -20.5 --><line y1='3.52774675059354in' x1='8in' y2='3.52774675059354in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- -20 --><text y='-7.50in' x='3.56374416641592in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >340</text>
+<text y='-7.59in' x='3.56374416641592in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >20</text>
+<line y1='3.56374416641592in' x1='8in' y2='3.56374416641592in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -19.5 --><line y1='3.5997415822383in' x1='8in' y2='3.5997415822383in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -19 --><line y1='3.63573899806069in' x1='8in' y2='3.63573899806069in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -18.5 --><line y1='3.67173641388307in' x1='8in' y2='3.67173641388307in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -18 --><line y1='3.70773382970545in' x1='8in' y2='3.70773382970545in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -17.5 --><line y1='3.74373124552784in' x1='8in' y2='3.74373124552784in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -17 --><line y1='3.77972866135022in' x1='8in' y2='3.77972866135022in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -16.5 --><line y1='3.8157260771726in' x1='8in' y2='3.8157260771726in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -16 --><line y1='3.85172349299499in' x1='8in' y2='3.85172349299499in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -15.5 --><line y1='3.88772090881737in' x1='8in' y2='3.88772090881737in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_150'><!-- -15 --><text y='-7.50in' x='3.92371832463975in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >345</text>
+<text y='-7.59in' x='3.92371832463975in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >15</text>
+<line y1='3.92371832463975in' x1='8in' y2='3.92371832463975in' x2='7.7in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -14.5 --><line y1='3.95971574046214in' x1='8in' y2='3.95971574046214in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -14 --><line y1='3.99571315628452in' x1='8in' y2='3.99571315628452in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -13.5 --><line y1='4.0317105721069in' x1='8in' y2='4.0317105721069in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -13 --><line y1='4.06770798792928in' x1='8in' y2='4.06770798792928in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -12.5 --><line y1='4.10370540375167in' x1='8in' y2='4.10370540375167in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -12 --><line y1='4.13970281957405in' x1='8in' y2='4.13970281957405in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -11.5 --><line y1='4.17570023539643in' x1='8in' y2='4.17570023539643in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -11 --><line y1='4.21169765121882in' x1='8in' y2='4.21169765121882in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -10.5 --><line y1='4.2476950670412in' x1='8in' y2='4.2476950670412in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- -10 --><text y='-7.50in' x='4.28369248286358in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >350</text>
+<text y='-7.59in' x='4.28369248286358in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >10</text>
+<line y1='4.28369248286358in' x1='8in' y2='4.28369248286358in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -9.5 --><line y1='4.31968989868597in' x1='8in' y2='4.31968989868597in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -9 --><line y1='4.35568731450835in' x1='8in' y2='4.35568731450835in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -8.5 --><line y1='4.39168473033073in' x1='8in' y2='4.39168473033073in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -8 --><line y1='4.42768214615312in' x1='8in' y2='4.42768214615312in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -7.5 --><line y1='4.4636795619755in' x1='8in' y2='4.4636795619755in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -7 --><line y1='4.49967697779788in' x1='8in' y2='4.49967697779788in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -6.5 --><line y1='4.53567439362026in' x1='8in' y2='4.53567439362026in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -6 --><line y1='4.57167180944265in' x1='8in' y2='4.57167180944265in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -5.5 --><line y1='4.60766922526503in' x1='8in' y2='4.60766922526503in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- -5 --><text y='-7.50in' x='4.64366664108741in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >355</text>
+<text y='-7.59in' x='4.64366664108741in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >5</text>
+<line y1='4.64366664108741in' x1='8in' y2='4.64366664108741in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -4.5 --><line y1='4.6796640569098in' x1='8in' y2='4.6796640569098in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -4 --><line y1='4.71566147273218in' x1='8in' y2='4.71566147273218in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -3.5 --><line y1='4.75165888855456in' x1='8in' y2='4.75165888855456in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -3 --><line y1='4.78765630437695in' x1='8in' y2='4.78765630437695in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -2.5 --><line y1='4.82365372019933in' x1='8in' y2='4.82365372019933in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -2 --><line y1='4.85965113602171in' x1='8in' y2='4.85965113602171in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -1.5 --><line y1='4.89564855184409in' x1='8in' y2='4.89564855184409in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- -1 --><line y1='4.93164596766648in' x1='8in' y2='4.93164596766648in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- -0.5 --><line y1='4.96764338348886in' x1='8in' y2='4.96764338348886in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_900'><!-- 0 --><line y1='5.00364079931124in' x1='8in' y2='5.00364079931124in' x2='7.5in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 0.5 --><line y1='5.03963821513363in' x1='8in' y2='5.03963821513363in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 1 --><line y1='5.07563563095601in' x1='8in' y2='5.07563563095601in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 1.5 --><line y1='5.11163304677839in' x1='8in' y2='5.11163304677839in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 2 --><line y1='5.14763046260078in' x1='8in' y2='5.14763046260078in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 2.5 --><line y1='5.18362787842316in' x1='8in' y2='5.18362787842316in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 3 --><line y1='5.21962529424554in' x1='8in' y2='5.21962529424554in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 3.5 --><line y1='5.25562271006793in' x1='8in' y2='5.25562271006793in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 4 --><line y1='5.29162012589031in' x1='8in' y2='5.29162012589031in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 4.5 --><line y1='5.32761754171269in' x1='8in' y2='5.32761754171269in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- 5 --><text y='-7.50in' x='5.36361495753507in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >5</text>
+<text y='-7.59in' x='5.36361495753507in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >355</text>
+<line y1='5.36361495753507in' x1='8in' y2='5.36361495753507in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 5.5 --><line y1='5.39961237335746in' x1='8in' y2='5.39961237335746in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 6 --><line y1='5.43560978917984in' x1='8in' y2='5.43560978917984in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 6.5 --><line y1='5.47160720500222in' x1='8in' y2='5.47160720500222in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 7 --><line y1='5.50760462082461in' x1='8in' y2='5.50760462082461in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 7.5 --><line y1='5.54360203664699in' x1='8in' y2='5.54360203664699in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 8 --><line y1='5.57959945246937in' x1='8in' y2='5.57959945246937in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 8.5 --><line y1='5.61559686829176in' x1='8in' y2='5.61559686829176in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 9 --><line y1='5.65159428411414in' x1='8in' y2='5.65159428411414in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 9.5 --><line y1='5.68759169993652in' x1='8in' y2='5.68759169993652in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- 10 --><text y='-7.50in' x='5.7235891157589in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >10</text>
+<text y='-7.59in' x='5.7235891157589in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >350</text>
+<line y1='5.7235891157589in' x1='8in' y2='5.7235891157589in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 10.5 --><line y1='5.75958653158129in' x1='8in' y2='5.75958653158129in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 11 --><line y1='5.79558394740367in' x1='8in' y2='5.79558394740367in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 11.5 --><line y1='5.83158136322605in' x1='8in' y2='5.83158136322605in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 12 --><line y1='5.86757877904844in' x1='8in' y2='5.86757877904844in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 12.5 --><line y1='5.90357619487082in' x1='8in' y2='5.90357619487082in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 13 --><line y1='5.9395736106932in' x1='8in' y2='5.9395736106932in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 13.5 --><line y1='5.97557102651559in' x1='8in' y2='5.97557102651559in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 14 --><line y1='6.01156844233797in' x1='8in' y2='6.01156844233797in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 14.5 --><line y1='6.04756585816035in' x1='8in' y2='6.04756585816035in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_150'><!-- 15 --><text y='-7.50in' x='6.08356327398273in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >15</text>
+<text y='-7.59in' x='6.08356327398273in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >345</text>
+<line y1='6.08356327398273in' x1='8in' y2='6.08356327398273in' x2='7.7in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 15.5 --><line y1='6.11956068980512in' x1='8in' y2='6.11956068980512in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 16 --><line y1='6.1555581056275in' x1='8in' y2='6.1555581056275in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 16.5 --><line y1='6.19155552144988in' x1='8in' y2='6.19155552144988in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 17 --><line y1='6.22755293727227in' x1='8in' y2='6.22755293727227in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 17.5 --><line y1='6.26355035309465in' x1='8in' y2='6.26355035309465in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 18 --><line y1='6.29954776891703in' x1='8in' y2='6.29954776891703in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 18.5 --><line y1='6.33554518473942in' x1='8in' y2='6.33554518473942in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 19 --><line y1='6.3715426005618in' x1='8in' y2='6.3715426005618in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 19.5 --><line y1='6.40754001638418in' x1='8in' y2='6.40754001638418in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- 20 --><text y='-7.50in' x='6.44353743220657in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >20</text>
+<text y='-7.59in' x='6.44353743220657in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >340</text>
+<line y1='6.44353743220657in' x1='8in' y2='6.44353743220657in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 20.5 --><line y1='6.47953484802895in' x1='8in' y2='6.47953484802895in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 21 --><line y1='6.51553226385133in' x1='8in' y2='6.51553226385133in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 21.5 --><line y1='6.55152967967372in' x1='8in' y2='6.55152967967372in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 22 --><line y1='6.5875270954961in' x1='8in' y2='6.5875270954961in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 22.5 --><line y1='6.62352451131848in' x1='8in' y2='6.62352451131848in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 23 --><line y1='6.65952192714086in' x1='8in' y2='6.65952192714086in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 23.5 --><line y1='6.69551934296325in' x1='8in' y2='6.69551934296325in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 24 --><line y1='6.73151675878563in' x1='8in' y2='6.73151675878563in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 24.5 --><line y1='6.76751417460801in' x1='8in' y2='6.76751417460801in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- 25 --><text y='-7.50in' x='6.8035115904304in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >25</text>
+<text y='-7.59in' x='6.8035115904304in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >335</text>
+<line y1='6.8035115904304in' x1='8in' y2='6.8035115904304in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 25.5 --><line y1='6.83950900625278in' x1='8in' y2='6.83950900625278in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 26 --><line y1='6.87550642207516in' x1='8in' y2='6.87550642207516in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 26.5 --><line y1='6.91150383789754in' x1='8in' y2='6.91150383789754in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 27 --><line y1='6.94750125371993in' x1='8in' y2='6.94750125371993in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 27.5 --><line y1='6.98349866954231in' x1='8in' y2='6.98349866954231in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 28 --><line y1='7.01949608536469in' x1='8in' y2='7.01949608536469in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 28.5 --><line y1='7.05549350118708in' x1='8in' y2='7.05549350118708in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 29 --><line y1='7.09149091700946in' x1='8in' y2='7.09149091700946in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 29.5 --><line y1='7.12748833283184in' x1='8in' y2='7.12748833283184in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_150'><!-- 30 --><text y='-7.50in' x='7.16348574865423in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >30</text>
+<text y='-7.59in' x='7.16348574865423in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >330</text>
+<line y1='7.16348574865423in' x1='8in' y2='7.16348574865423in' x2='7.7in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 30.5 --><line y1='7.19948316447661in' x1='8in' y2='7.19948316447661in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 31 --><line y1='7.23548058029899in' x1='8in' y2='7.23548058029899in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 31.5 --><line y1='7.27147799612138in' x1='8in' y2='7.27147799612138in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 32 --><line y1='7.30747541194376in' x1='8in' y2='7.30747541194376in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 32.5 --><line y1='7.34347282776614in' x1='8in' y2='7.34347282776614in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 33 --><line y1='7.37947024358852in' x1='8in' y2='7.37947024358852in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 33.5 --><line y1='7.41546765941091in' x1='8in' y2='7.41546765941091in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 34 --><line y1='7.45146507523329in' x1='8in' y2='7.45146507523329in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 34.5 --><line y1='7.48746249105567in' x1='8in' y2='7.48746249105567in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- 35 --><text y='-7.50in' x='7.52345990687806in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >35</text>
+<text y='-7.59in' x='7.52345990687806in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >325</text>
+<line y1='7.52345990687806in' x1='8in' y2='7.52345990687806in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 35.5 --><line y1='7.55945732270044in' x1='8in' y2='7.55945732270044in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 36 --><line y1='7.59545473852282in' x1='8in' y2='7.59545473852282in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 36.5 --><line y1='7.63145215434521in' x1='8in' y2='7.63145215434521in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 37 --><line y1='7.66744957016759in' x1='8in' y2='7.66744957016759in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 37.5 --><line y1='7.70344698598997in' x1='8in' y2='7.70344698598997in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 38 --><line y1='7.73944440181236in' x1='8in' y2='7.73944440181236in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 38.5 --><line y1='7.77544181763474in' x1='8in' y2='7.77544181763474in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 39 --><line y1='7.81143923345712in' x1='8in' y2='7.81143923345712in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 39.5 --><line y1='7.8474366492795in' x1='8in' y2='7.8474366492795in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- 40 --><text y='-7.50in' x='7.88343406510189in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >40</text>
+<text y='-7.59in' x='7.88343406510189in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >320</text>
+<line y1='7.88343406510189in' x1='8in' y2='7.88343406510189in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 40.5 --><line y1='7.91943148092427in' x1='8in' y2='7.91943148092427in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 41 --><line y1='7.95542889674665in' x1='8in' y2='7.95542889674665in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 41.5 --><line y1='7.99142631256904in' x1='8in' y2='7.99142631256904in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 42 --><line y1='8.02742372839142in' x1='8in' y2='8.02742372839142in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 42.5 --><line y1='8.0634211442138in' x1='8in' y2='8.0634211442138in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 43 --><line y1='8.09941856003619in' x1='8in' y2='8.09941856003619in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 43.5 --><line y1='8.13541597585857in' x1='8in' y2='8.13541597585857in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 44 --><line y1='8.17141339168095in' x1='8in' y2='8.17141339168095in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 44.5 --><line y1='8.20741080750333in' x1='8in' y2='8.20741080750333in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_450'><!-- 45 --><line y1='8.24340822332572in' x1='8in' y2='8.24340822332572in' x2='7.6in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 45.5 --><line y1='8.2794056391481in' x1='8in' y2='8.2794056391481in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 46 --><line y1='8.31540305497048in' x1='8in' y2='8.31540305497048in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 46.5 --><line y1='8.35140047079287in' x1='8in' y2='8.35140047079287in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 47 --><line y1='8.38739788661525in' x1='8in' y2='8.38739788661525in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 47.5 --><line y1='8.42339530243763in' x1='8in' y2='8.42339530243763in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 48 --><line y1='8.45939271826002in' x1='8in' y2='8.45939271826002in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 48.5 --><line y1='8.4953901340824in' x1='8in' y2='8.4953901340824in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 49 --><line y1='8.53138754990478in' x1='8in' y2='8.53138754990478in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 49.5 --><line y1='8.56738496572717in' x1='8in' y2='8.56738496572717in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- 50 --><text y='-7.50in' x='8.60338238154955in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >50</text>
+<text y='-7.59in' x='8.60338238154955in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >310</text>
+<line y1='8.60338238154955in' x1='8in' y2='8.60338238154955in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 50.5 --><line y1='8.63937979737193in' x1='8in' y2='8.63937979737193in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 51 --><line y1='8.67537721319431in' x1='8in' y2='8.67537721319431in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 51.5 --><line y1='8.7113746290167in' x1='8in' y2='8.7113746290167in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 52 --><line y1='8.74737204483908in' x1='8in' y2='8.74737204483908in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 52.5 --><line y1='8.78336946066146in' x1='8in' y2='8.78336946066146in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 53 --><line y1='8.81936687648385in' x1='8in' y2='8.81936687648385in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 53.5 --><line y1='8.85536429230623in' x1='8in' y2='8.85536429230623in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 54 --><line y1='8.89136170812861in' x1='8in' y2='8.89136170812861in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 54.5 --><line y1='8.927359123951in' x1='8in' y2='8.927359123951in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- 55 --><text y='-7.50in' x='8.96335653977338in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >55</text>
+<text y='-7.59in' x='8.96335653977338in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >305</text>
+<line y1='8.96335653977338in' x1='8in' y2='8.96335653977338in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 55.5 --><line y1='8.99935395559576in' x1='8in' y2='8.99935395559576in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 56 --><line y1='9.03535137141814in' x1='8in' y2='9.03535137141814in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 56.5 --><line y1='9.07134878724053in' x1='8in' y2='9.07134878724053in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 57 --><line y1='9.10734620306291in' x1='8in' y2='9.10734620306291in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 57.5 --><line y1='9.14334361888529in' x1='8in' y2='9.14334361888529in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 58 --><line y1='9.17934103470768in' x1='8in' y2='9.17934103470768in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 58.5 --><line y1='9.21533845053006in' x1='8in' y2='9.21533845053006in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 59 --><line y1='9.25133586635244in' x1='8in' y2='9.25133586635244in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 59.5 --><line y1='9.28733328217483in' x1='8in' y2='9.28733328217483in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_150'><!-- 60 --><text y='-7.50in' x='9.32333069799721in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >60</text>
+<text y='-7.59in' x='9.32333069799721in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >300</text>
+<line y1='9.32333069799721in' x1='8in' y2='9.32333069799721in' x2='7.7in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 60.5 --><line y1='9.35932811381959in' x1='8in' y2='9.35932811381959in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 61 --><line y1='9.39532552964198in' x1='8in' y2='9.39532552964198in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 61.5 --><line y1='9.43132294546436in' x1='8in' y2='9.43132294546436in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 62 --><line y1='9.46732036128674in' x1='8in' y2='9.46732036128674in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 62.5 --><line y1='9.50331777710912in' x1='8in' y2='9.50331777710912in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 63 --><line y1='9.53931519293151in' x1='8in' y2='9.53931519293151in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 63.5 --><line y1='9.57531260875389in' x1='8in' y2='9.57531260875389in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 64 --><line y1='9.61131002457627in' x1='8in' y2='9.61131002457627in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 64.5 --><line y1='9.64730744039866in' x1='8in' y2='9.64730744039866in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_050'><!-- 65 --><text y='-7.50in' x='9.68330485622104in' transform='rotate(90)' style='fill:#888;text-anchor:middle;font-size:5pt;font-family:serif;' >65</text>
+<text y='-7.59in' x='9.68330485622104in' transform='rotate(90)' style='fill:#000;text-anchor:middle;font-size:5pt;font-family:serif;' >295</text>
+<line y1='9.68330485622104in' x1='8in' y2='9.68330485622104in' x2='7.8in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 65.5 --><line y1='9.71930227204342in' x1='8in' y2='9.71930227204342in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 66 --><line y1='9.75529968786581in' x1='8in' y2='9.75529968786581in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 66.5 --><line y1='9.79129710368819in' x1='8in' y2='9.79129710368819in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 67 --><line y1='9.82729451951057in' x1='8in' y2='9.82729451951057in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 67.5 --><line y1='9.86329193533295in' x1='8in' y2='9.86329193533295in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 68 --><line y1='9.89928935115534in' x1='8in' y2='9.89928935115534in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_005'><!-- 68.5 --><line y1='9.93528676697772in' x1='8in' y2='9.93528676697772in' x2='7.95in' stroke='black' stroke-width='1px' />
+</g><g class='mark_holder_mo_010'><!-- 69 --><line y1='9.9712841828001in' x1='8in' y2='9.9712841828001in' x2='7.9in' stroke='black' stroke-width='1px' />
+</g></g>
+</g>
+</svg>

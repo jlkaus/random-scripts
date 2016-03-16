@@ -133,6 +133,7 @@ foreach(@interesting_teams) {
     }
     ++$j;
   }
+
   print "\n";
   ++$b;
 }
@@ -148,6 +149,28 @@ for(my $q = 0; $q < scalar @fwin; ++$q) {
 
 }
 print "\n";
+
+if(scalar @interesting_teams == 2) {
+  my $a = $teams{$interesting_teams[0]};
+  my $b = $teams{$interesting_teams[1]};
+  # Ok do some matchup stuff
+  printf "%-20s %15s %15s %15s\n", "Name","Off","Def","Exp";
+  printf "%-20s %15.5f %15.5f %15.5f\n", $a->{Name},
+    $a->{FGA}/$a->{GM} * $a->{'FG%'}/100 * $b->{'OPP FG%'}/100,
+    $a->{'OPP FGA'}/$a->{GM} * $a->{'OPP FG%'}/100 * $b->{'FG%'}/100,
+    ($a->{FGA}/$a->{GM} + $b->{'OPP FGA'}/$b->{GM})/2 * 
+    ($a->{'FG%'} + $b->{'OPP FG%'})/200;
+  printf "%-20s %15.5f %15.5f %15.5f\n", $b->{Name},
+    $b->{FGA}/$b->{GM} * $b->{'FG%'}/100 * $a->{'OPP FG%'}/100,
+    $b->{'OPP FGA'}/$b->{GM} * $b->{'OPP FG%'}/100 * $a->{'FG%'}/100,
+    ($b->{FGA}/$b->{GM} + $a->{'OPP FGA'}/$a->{GM})/2 * 
+    ($b->{'FG%'} + $a->{'OPP FG%'})/200;
+
+
+
+
+}
+
 
 exit(0);
 

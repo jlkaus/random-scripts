@@ -1,7 +1,4 @@
 Random scripts that I use on my laptop and in the cloud.  All of these are pretty-much one-offs.
-In particular, they do not include:
- - my music ripping and music management script system (see musikding)
- - my book logging app/webpage stuff (see booklog)
 
 Directories in here:
 
